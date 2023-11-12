@@ -1,0 +1,11 @@
+body {
+  background: blueviolet;
+}
+h1 {
+  font-family: "Roboto Serif", serif;
+  font-weight: bold;
+}
+p {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
