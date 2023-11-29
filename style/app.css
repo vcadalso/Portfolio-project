@@ -64,6 +64,7 @@ p {
 
 .content-container {
   padding: 160px 20px;
+  color: antiquewhite;
 }
 
 .content-container h1 {
@@ -75,6 +76,17 @@ p {
 .content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
+}
+
+.content-container h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+}
+
+.content-container p {
+  font-size: 18px;
 }
 
 .content {
