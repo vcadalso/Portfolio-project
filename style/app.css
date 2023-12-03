@@ -113,6 +113,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 100ms ease-in-out;
 }
 
 .btn-branding-outline:hover {
@@ -125,11 +126,51 @@ p {
 
 .contact-link a {
   color: gray;
+  transition: all 100ms ease-in-out;
 }
 
 .contact-link a:hover {
   color: var(--branding-color);
-  text-decoration: underline;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+footer .contact-box {
+  padding: 30px 120px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .contact-box h4 {
+  font-size: 40px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 18px;
+  color: var(--branding-color);
+  background-color: antiquewhite;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background-color: var(--branding-color);
+  color: antiquewhite;
+}
+
+footer .email-link {
+  font-size: 20px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
 }
 
 .logo {
@@ -184,6 +225,10 @@ nav li.active a {
     font-size: 44px;
   }
 
+  h4 {
+    font-size: 18px;
+  }
+
   .hero {
     padding: 80px 20px;
     line-height: 2;
@@ -197,5 +242,9 @@ nav li.active a {
   .product-description {
     padding: 0;
     text-align: center;
+  }
+
+  footer .contact-box {
+    padding: 30px;
   }
 }
