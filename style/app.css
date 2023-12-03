@@ -20,6 +20,10 @@ h6 {
   font-weight: bold;
 }
 
+.body {
+  overflow-x: hidden;
+}
+
 h1 {
   font-size: 96px;
 }
