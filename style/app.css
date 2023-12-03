@@ -123,6 +123,15 @@ p {
   padding: 120px 60px;
 }
 
+.contact-link a {
+  color: gray;
+}
+
+.contact-link a:hover {
+  color: var(--branding-color);
+  text-decoration: underline;
+}
+
 .logo {
   max-height: 42px;
   margin-left: 15px;
